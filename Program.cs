@@ -6,9 +6,6 @@ namespace FibonacciNums
     {
         public static long GetFibonacciNumber(long num)
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            if (num < 0)
-            throw new ArgumentException("Введіть ціле позитивне число!");
             if 
               (num == 0)
               return 0;
